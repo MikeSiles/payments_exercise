@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.2'
+ruby '2.7.2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -29,4 +29,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'listen'
+end
+
+group :test do
+  gem 'shoulda-matchers'
 end
